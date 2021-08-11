@@ -1,6 +1,6 @@
-const { NUMBERS } = require('../data');
+const { NUMBERS } = require('../data')
 
 /** @param {number[]} arr */
-const sumAll = (arr) => arr.reduce((acum, cur) => acum + cur);
+const sumAll = (arr) => arr.reduce((acum, cur) => acum + cur)
 
-console.log(sumAll(NUMBERS));
+console.log(sumAll(NUMBERS))

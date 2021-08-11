@@ -1,10 +1,10 @@
-const { NUMBERS } = require('../data');
+const { NUMBERS } = require('../data')
 
 /**
  * @param {number[]} arr
  * @param {number} max
  */
 
-const biggerThan = (arr, max) => arr.filter((num) => num > max);
+const biggerThan = (arr, max) => arr.filter((num) => num > max)
 
-console.log(biggerThan(NUMBERS, 70));
+console.log(biggerThan(NUMBERS, 70))

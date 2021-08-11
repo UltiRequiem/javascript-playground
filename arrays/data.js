@@ -5,7 +5,7 @@ const NUMBERS = [
   61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79,
   80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98,
   99, 100,
-];
+]
 
 const STUDENTS = [
   { name: 'Quincy', grade: 96 },
@@ -13,9 +13,9 @@ const STUDENTS = [
   { name: 'Alexis', grade: 100 },
   { name: 'Sam', grade: 65 },
   { name: 'Katie', grade: 90 },
-];
+]
 
-const PETS = ['dog', 'chicken', 'cat', 'dog', 'chicken', 'chicken', 'rabbit'];
+const PETS = ['dog', 'chicken', 'cat', 'dog', 'chicken', 'chicken', 'rabbit']
 
 const STAR_WARS = [
   {
@@ -53,14 +53,14 @@ const STAR_WARS = [
     shootingScore: 85,
     isForceUser: true,
   },
-];
+]
 
-const FRUITS = ['Apple', 'Banana','Orange','Sandia'];
+const FRUITS = ['Apple', 'Banana', 'Orange', 'Sandia']
 
 module.exports = {
   STAR_WARS,
   NUMBERS,
   STUDENTS,
   PETS,
-  FRUITS
-};
+  FRUITS,
+}

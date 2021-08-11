@@ -1,18 +1,18 @@
 const person = (name) => {
-  let myName = name;
+  let myName = name
 
   return {
     get name() {
-      return myName;
+      return myName
     },
 
     set name(value) {
-      myName = value;
+      myName = value
     },
-  };
-};
+  }
+}
 
-const newPerson = person('Pedro');
-console.log(newPerson.name);
-newPerson.name = 'Jousmo';
-console.log(newPerson.name);
+const newPerson = person('Pedro')
+console.log(newPerson.name)
+newPerson.name = 'Jousmo'
+console.log(newPerson.name)

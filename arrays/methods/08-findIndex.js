@@ -1,3 +1,3 @@
-const { FRUITS } = require('../data');
+const { FRUITS } = require('../data')
 
-console.log(FRUITS.indexOf('Banana'));
+console.log(FRUITS.indexOf('Banana'))

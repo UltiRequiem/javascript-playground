@@ -1,5 +1,5 @@
-const { FRUITS } = require('../data');
+const { FRUITS } = require('../data')
 
-console.log(FRUITS);
-FRUITS.unshift('Strawberry');
-console.log(FRUITS);
+console.log(FRUITS)
+FRUITS.unshift('Strawberry')
+console.log(FRUITS)

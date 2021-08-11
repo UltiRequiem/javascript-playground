@@ -1,3 +1,3 @@
-const { FRUITS } = require('../data');
+const { FRUITS } = require('../data')
 
-console.log(FRUITS.length); // 4
+console.log(FRUITS.length) // 4

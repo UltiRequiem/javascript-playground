@@ -1,8 +1,8 @@
-const { FRUITS } = require('../data');
+const { FRUITS } = require('../data')
 
 /** @param {Array} arr */
 const printItems = (arr) => {
-  arr.forEach((elem, index) => console.log(elem, index));
-};
+  arr.forEach((elem, index) => console.log(elem, index))
+}
 
-printItems(FRUITS);
+printItems(FRUITS)

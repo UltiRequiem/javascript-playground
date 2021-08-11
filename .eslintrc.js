@@ -5,11 +5,7 @@ module.exports = {
     es6: true,
   },
   ignorePatterns: ['node_modules'],
-  extends: [
-    'airbnb-base',
-    'prettier',
-    'eslint:recommended',
-  ],
+  extends: ['airbnb-base', 'prettier', 'eslint:recommended'],
   parserOptions: {
     ecmaVersion: 2021,
     sourceType: 'module',
@@ -21,4 +17,4 @@ module.exports = {
     'max-classes-per-file': 'off',
     'no-console': 'off',
   },
-};
+}
