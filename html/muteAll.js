@@ -15,4 +15,4 @@ function mutePage() {
   document.querySelectorAll('video, audio').forEach((elem) => muteMe(elem))
 }
 
-module.exports = mutePage
+export default mutePage

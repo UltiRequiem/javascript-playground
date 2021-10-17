@@ -1,4 +1,4 @@
-const { copyFile } = require('fs')
+import { copyFile } from 'fs'
 
 function copy(file, newPath) {
   copyFile(file.replace('~', process.env.HOME), newPath, (err) =>
@@ -6,4 +6,4 @@ function copy(file, newPath) {
   )
 }
 
-module.exports = copy
+export default copy

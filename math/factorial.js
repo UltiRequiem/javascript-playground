@@ -1,6 +1,8 @@
-function factorialize(num) {
+/* eslint-disable no-param-reassign */
+
+export default function factorialize(num) {
   if (num < 0) {
-    return undefined
+    throw new Error(`Expected positive number but got ${num}.`)
   }
 
   if (num === 0 || num === 1) {
@@ -8,7 +10,6 @@ function factorialize(num) {
   }
 
   for (let i = num - 1; i >= 1; i--) {
-    // eslint-disable-next-line no-param-reassign
     num *= i
   }
 

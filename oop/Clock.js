@@ -1,4 +1,4 @@
-class Clock {
+export default class Clock {
   constructor({ template }) {
     this.template = template
   }
@@ -32,5 +32,3 @@ class Clock {
     this.timer = setInterval(() => this.render(), 1000)
   }
 }
-
-module.exports = Clock

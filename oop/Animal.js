@@ -1,4 +1,4 @@
-class Animal {
+export default class Animal {
   constructor(name) {
     this.speed = 0
     this.name = name
@@ -15,7 +15,7 @@ class Animal {
   }
 }
 
-class Rabbit extends Animal {
+export class Rabbit extends Animal {
   hide() {
     console.log(`${this.name} hides!`)
   }
