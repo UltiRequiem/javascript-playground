@@ -12,7 +12,7 @@
   },
   "rules": {
     "quotes": ["warn", "single", "avoid-escape"],
-    "eslint-disable-next-line": 0,
+    "import/extensions": "off",
     "no-plusplus": "off",
     "on-var": "off",
     "max-classes-per-file": "off",

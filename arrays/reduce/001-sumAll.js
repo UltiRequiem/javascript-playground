@@ -1,4 +1,4 @@
-import { FRUITS } from '../data.js'
+import { NUMBERS } from '../data.js'
 
 /** @param {number[]} arr */
 const sumAll = (arr) => arr.reduce((acum, cur) => acum + cur)
