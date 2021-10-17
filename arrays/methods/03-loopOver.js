@@ -1,4 +1,4 @@
-const { FRUITS } = require('../data')
+import { FRUITS } from '../data.js'
 
 /** @param {Array} arr */
 const printItems = (arr) => {

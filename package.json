@@ -4,9 +4,10 @@
   "description": "My Playground for JavaScript",
   "author": "Eliaz Bobadilla <eliaz.bobadilladev@gmail.com> (https://github.com/UltiRequiem)",
   "license": "MIT",
+  "type": "module",
   "scripts": {
-    "format": "npx prettier --write '**/**/*.js'",
-    "lint": "npx eslint . --ext .js"
+    "format": "prettier --write '**/**/*.js'",
+    "lint": "eslint . --ext .js"
   },
   "devDependencies": {
     "eslint-config-airbnb-base": "^14.2.1",
@@ -17,5 +18,14 @@
     "prettier-plugin-jsdoc": "^0.3.23",
     "eslint": "^7.32.0",
     "eslint-plugin-import": "^2.24.0"
+  },
+  "prettier": {
+    "plugins": [
+      "prettier-plugin-jsdoc"
+    ],
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
   }
 }

@@ -1,4 +1,4 @@
-const { STUDENTS } = require('../data')
+import { STUDENTS } from '../data.js'
 
 /**
  * @param {Array} students

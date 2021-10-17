@@ -57,10 +57,4 @@ const STAR_WARS = [
 
 const FRUITS = ['Apple', 'Banana', 'Orange', 'Sandia']
 
-module.exports = {
-  STAR_WARS,
-  NUMBERS,
-  STUDENTS,
-  PETS,
-  FRUITS,
-}
+export { STAR_WARS, NUMBERS, STUDENTS, PETS, FRUITS }

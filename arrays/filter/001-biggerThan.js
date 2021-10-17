@@ -1,4 +1,4 @@
-const { NUMBERS } = require('../data')
+import { NUMBERS } from '../data.js'
 
 /**
  * @param {number[]} arr

@@ -1,4 +1,4 @@
-const { NUMBERS } = require('../data')
+import { NUMBERS } from '../data.js'
 
 const delItem = (arr, toDel) => arr.filter(() => !arr.includes(toDel))
 

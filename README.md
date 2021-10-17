@@ -6,7 +6,6 @@
 ![CodeQL](https://github.com/UltiRequiem/javascript/workflows/CodeQL/badge.svg)
 ![CodeQL](https://github.com/UltiRequiem/javascript/workflows/Eslint/badge.svg)
 
-
 JavaScript is the world's most popular programming language.
 
 ## Formal Practice
