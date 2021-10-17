@@ -4,3 +4,5 @@ import { NUMBERS } from '../data.js'
 const rmOdds = (arr) => arr.filter((num) => num % 2 === 0)
 
 console.log(rmOdds(NUMBERS))
+
+export default rmOdds

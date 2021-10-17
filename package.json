@@ -4,6 +4,7 @@
   "description": "My Playground for JavaScript",
   "author": "Eliaz Bobadilla <eliaz.bobadilladev@gmail.com> (https://github.com/UltiRequiem)",
   "license": "MIT",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "format": "prettier --write '**/**/*.js'",

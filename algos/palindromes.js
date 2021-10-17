@@ -1,6 +1,16 @@
-const palindromeOne = (phrase) => phrase === phrase.split('').reverse().join('')
+/**
+ * @param {string} phrase
+ * @returns {boolean}
+ */
+export function simplePalindrome(phrase) {
+  return phrase === phrase.split('').reverse().join('')
+}
 
-function palindromeTwo(word) {
+/**
+ * @param {string} phrase
+ * @returns {boolean}
+ */
+export function cyclePalindrome(word) {
   const splitedWord = word.split('')
   const reverseWord = []
 
@@ -10,5 +20,3 @@ function palindromeTwo(word) {
 
   return splitedWord.join('') === reverseWord.join('')
 }
-
-export { palindromeOne, palindromeTwo }

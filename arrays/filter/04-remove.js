@@ -1,7 +1,14 @@
 import { NUMBERS } from '../data.js'
 
-const delItem = (arr, toDel) => arr.filter(() => !arr.includes(toDel))
+/**
+ * @param {any[]} arr
+ * @param {any} toDel
+ * @returns {any[]}
+ */
+export default function delItem(arr, toDel) {
+  return arr
+    .slice(0, arr.indexOf(toDel))
+    .concat(arr.slice(arr.indexOf(toDel) + 1, arr.length))
+}
 
-const no50 = delItem(NUMBERS, 50)
-
-console.log(no50)
+console.log(delItem(NUMBERS, 50))
