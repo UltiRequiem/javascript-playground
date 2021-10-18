@@ -1,5 +1,3 @@
-/* eslint-disable no-param-reassign */
-
 /**
  * Mute a singular HTML5 element
  *

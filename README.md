@@ -4,20 +4,18 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![Lines Of Code](https://img.shields.io/tokei/lines/github.com/UltiRequiem/javascript?color=blue&label=Total%20Lines)
 ![CodeQL](https://github.com/UltiRequiem/javascript/workflows/CodeQL/badge.svg)
-![CodeQL](https://github.com/UltiRequiem/javascript/workflows/Lint/badge.svg)
+![Lint](https://github.com/UltiRequiem/javascript/workflows/Lint/badge.svg)
 
-JavaScript is the world's most popular programming language.
+JavaScript is the world's most popular programming language and it is very cool.
 
-### Articles to read
+All here runs whith [Deno](https://deno.land), not [Node.js](https://nodejs.org).
+
+### To Read or Whatch
+
+Interesting Resources.
 
 - [Complete Introduction to Redux](https://dev.to/cenacr007_harsh/complete-introduction-to-redux-2281)
-
-### Videos to watch
-
 - [React and the Virtual DOM](https://youtu.be/BYbgopx44vo)
-
-### Repos to read
-
 - [microsoft/Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners)
 - [sudheerj/reactjs-interview-questions](https://github.com/sudheerj/reactjs-interview-questions)
 - [yangshun/front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook)
@@ -26,7 +24,9 @@ JavaScript is the world's most popular programming language.
 - [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)
 - [leonardomso/33-js-concepts](https://github.com/leonardomso/33-js-concepts)
 
-### Readed Articles
+### Bookmarks
+
+Things that I liked and I want to save them to review them in some future.
 
 - [Closures](./closures/)
 
@@ -78,6 +78,6 @@ JavaScript is the world's most popular programming language.
 
   - [Understanding module.exports and exports in Node.js](https://www.sitepoint.com/understanding-module-exports-exports-node-js)
 
-### LICENSE
+### License
 
-This project is licensed under the [MIT License](./LICENSE.md).
+All here is licensed under the [MIT License](./LICENSE.md).
