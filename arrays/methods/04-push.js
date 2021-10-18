@@ -1,5 +1,5 @@
-import { FRUITS } from '../data.js'
+import { FRUITS } from "../data.js";
 
-console.log(FRUITS)
-FRUITS.push('Kiwi')
-console.log(FRUITS)
+console.log(FRUITS);
+FRUITS.push("Kiwi");
+console.log(FRUITS);

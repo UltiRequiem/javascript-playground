@@ -1,6 +1,6 @@
-import { NUMBERS } from '../data.js'
+import { NUMBERS } from "../data.js";
 
 /** @param {number[]} arr */
-const sumAll = (arr) => arr.reduce((acum, cur) => acum + cur)
+const sumAll = (arr) => arr.reduce((acum, cur) => acum + cur);
 
-console.log(sumAll(NUMBERS))
+console.log(sumAll(NUMBERS));

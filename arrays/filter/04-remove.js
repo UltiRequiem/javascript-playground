@@ -1,4 +1,4 @@
-import { NUMBERS } from '../data.js'
+import { NUMBERS } from "../data.js";
 
 /**
  * @param {any[]} arr
@@ -8,7 +8,7 @@ import { NUMBERS } from '../data.js'
 export default function delItem(arr, toDel) {
   return arr
     .slice(0, arr.indexOf(toDel))
-    .concat(arr.slice(arr.indexOf(toDel) + 1, arr.length))
+    .concat(arr.slice(arr.indexOf(toDel) + 1, arr.length));
 }
 
-console.log(delItem(NUMBERS, 50))
+console.log(delItem(NUMBERS, 50));

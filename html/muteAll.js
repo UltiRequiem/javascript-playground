@@ -6,13 +6,13 @@
  * @param {HTMLElement} elem
  */
 function muteMe(elem) {
-  elem.muted = true
-  elem.pause()
+  elem.muted = true;
+  elem.pause();
 }
 
 /** Try to mute all video and audio elements on the page */
 function mutePage() {
-  document.querySelectorAll('video, audio').forEach((elem) => muteMe(elem))
+  document.querySelectorAll("video, audio").forEach((elem) => muteMe(elem));
 }
 
-export default mutePage
+export default mutePage;

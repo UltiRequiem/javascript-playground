@@ -1,8 +1,8 @@
-import { NUMBERS } from '../data.js'
+import { NUMBERS } from "../data.js";
 
 /** @param {number[]} arr */
-const rmOdds = (arr) => arr.filter((num) => num % 2 === 0)
+const rmOdds = (arr) => arr.filter((num) => num % 2 === 0);
 
-console.log(rmOdds(NUMBERS))
+console.log(rmOdds(NUMBERS));
 
-export default rmOdds
+export default rmOdds;

@@ -1,6 +1,6 @@
-import { NUMBERS } from '../data.js'
+import { NUMBERS } from "../data.js";
 
 /** @param {Array} arr */
-const doubleNumbers = (arr) => arr.map((n) => n * 2)
+const doubleNumbers = (arr) => arr.map((n) => n * 2);
 
-console.log(doubleNumbers(NUMBERS))
+console.log(doubleNumbers(NUMBERS));

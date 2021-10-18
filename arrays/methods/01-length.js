@@ -1,3 +1,3 @@
-import { FRUITS } from '../data.js'
+import { FRUITS } from "../data.js";
 
-console.log(FRUITS.length) // 4
+console.log(FRUITS.length); // 4

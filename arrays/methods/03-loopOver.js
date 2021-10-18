@@ -1,8 +1,8 @@
-import { FRUITS } from '../data.js'
+import { FRUITS } from "../data.js";
 
 /** @param {Array} arr */
 const printItems = (arr) => {
-  arr.forEach((elem, index) => console.log(elem, index))
-}
+  arr.forEach((elem, index) => console.log(elem, index));
+};
 
-printItems(FRUITS)
+printItems(FRUITS);

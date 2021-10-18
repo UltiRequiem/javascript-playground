@@ -1,5 +1,5 @@
-const { FRUITS } = require('../data')
+const { FRUITS } = require("../data");
 
-console.log(FRUITS)
-FRUITS.pop()
-console.log(FRUITS)
+console.log(FRUITS);
+FRUITS.pop();
+console.log(FRUITS);

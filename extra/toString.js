@@ -1,3 +1,3 @@
-const anotherFunc = (par) => console.log(par)
+const anotherFunc = (par) => console.log(par);
 
-console.log(anotherFunc.toString())
+console.log(anotherFunc.toString());

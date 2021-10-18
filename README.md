@@ -4,14 +4,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![Lines Of Code](https://img.shields.io/tokei/lines/github.com/UltiRequiem/javascript?color=blue&label=Total%20Lines)
 ![CodeQL](https://github.com/UltiRequiem/javascript/workflows/CodeQL/badge.svg)
-![CodeQL](https://github.com/UltiRequiem/javascript/workflows/Eslint/badge.svg)
+![CodeQL](https://github.com/UltiRequiem/javascript/workflows/Lint/badge.svg)
 
 JavaScript is the world's most popular programming language.
-
-## Formal Practice
-
-I do some exercises every day in:
-[UltiRequiem/daily-javascript-practice](https://github.com/UltiRequiem/daily-javascript-practice)
 
 ### Articles to read
 
@@ -82,3 +77,7 @@ I do some exercises every day in:
   - [MEAN Stack Quick Guide](https://medium.com/@onejohi/mean-stack-quick-guide-f50351ba56eb)
 
   - [Understanding module.exports and exports in Node.js](https://www.sitepoint.com/understanding-module-exports-exports-node-js)
+
+### LICENSE
+
+This project is licensed under the [MIT License](./LICENSE.md).
