@@ -1,4 +1,5 @@
-const incrementBy = (n) => (x) => n + x;
+// deno-lint-ignore no-explicit-any
+const incrementBy = (n: any) => (x: any) => n + x;
 
 export default function main() {
   const incrementByOne = incrementBy(1); // => int -> int

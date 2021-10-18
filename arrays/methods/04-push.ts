@@ -1,4 +1,4 @@
-import { FRUITS } from "../data.js";
+import { FRUITS } from "../data.ts";
 
 console.log(FRUITS);
 FRUITS.push("Kiwi");

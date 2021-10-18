@@ -1,4 +1,4 @@
-const person = (name) => {
+const person = (name: string) => {
   let myName = name;
 
   return {
@@ -14,5 +14,6 @@ const person = (name) => {
 
 const newPerson = person("Pedro");
 console.log(newPerson.name);
+
 newPerson.name = "Jousmo";
 console.log(newPerson.name);

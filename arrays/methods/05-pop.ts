@@ -1,4 +1,4 @@
-const { FRUITS } = require("../data");
+import { FRUITS } from "../data.ts";
 
 console.log(FRUITS);
 FRUITS.pop();
