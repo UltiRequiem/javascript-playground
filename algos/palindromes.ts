@@ -1,16 +1,8 @@
-/**
- * @param {string} phrase
- * @returns {boolean}
- */
-export function simplePalindrome(phrase) {
+export function simplePalindrome(phrase: string) {
   return phrase === phrase.split("").reverse().join("");
 }
 
-/**
- * @param {string} phrase
- * @returns {boolean}
- */
-export function cyclePalindrome(word) {
+export function cyclePalindrome(word: string) {
   const splitedWord = word.split("");
   const reverseWord = [];
 

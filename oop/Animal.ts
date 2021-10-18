@@ -1,10 +1,13 @@
 export default class Animal {
-  constructor(name) {
+  public name: string;
+  public speed: number;
+
+  constructor(name: string) {
     this.speed = 0;
     this.name = name;
   }
 
-  run(speed) {
+  run(speed: number) {
     this.speed = speed;
     console.log(`${this.name} runs with speed ${this.speed}.`);
   }

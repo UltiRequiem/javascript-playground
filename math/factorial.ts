@@ -1,4 +1,4 @@
-export default function factorialize(num) {
+export default function factorialize(num: number) {
   if (num < 0) {
     throw new Error(`Expected positive number but got ${num}.`);
   }

@@ -1,4 +1,4 @@
-function factorialize(num) {
+function factorialize(num: number): number {
   if (num < 0) {
     throw new Error(`Expected positive number but got ${num}.`);
   }
