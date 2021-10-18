@@ -43,6 +43,17 @@ without any problem, so it was very easy to port all to Typescript.
 I ended up passing even what was not needed to TypeScript because I didn't like
 that the repository was half TypeScript and half JavaScript.
 
+- "I want to import your code"
+
+E.g: Import
+[algos/primeNumber.ts](https://github.com/UltiRequiem/javascript/blob/main/algos/primeNumber.ts):
+
+```typescript
+import isPrime from "https://raw.githubusercontent.com/UltiRequiem/javascript/main/algos/primeNumber.ts";
+
+console.log(isPrime(5));
+```
+
 ### Bookmarks
 
 Things that I liked and I want to save them to review them in some future.
