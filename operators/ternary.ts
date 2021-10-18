@@ -1,4 +1,4 @@
-const getFee = (isMember) => isMember ? "$2.00" : "$10.00"
+const getFee = (isMember: boolean | null) => isMember ? "$2.00" : "$10.00";
 
 console.log(getFee(true));
 // expected output: "$2.00"
