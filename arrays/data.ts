@@ -101,7 +101,9 @@ const NUMBERS = [
   100,
 ];
 
-const STUDENTS = [
+type Student = { name: string; grade: number };
+
+const STUDENTS: Student[] = [
   { name: "Quincy", grade: 96 },
   { name: "Jason", grade: 84 },
   { name: "Alexis", grade: 100 },
@@ -152,3 +154,4 @@ const STAR_WARS = [
 const FRUITS = ["Apple", "Banana", "Orange", "Sandia"];
 
 export { FRUITS, NUMBERS, PETS, STAR_WARS, STUDENTS };
+export type { Student };
