@@ -1,8 +1,8 @@
-import xl from "excel4node";
+const xl = require("excel4node");
 
 const wb = new xl.Workbook();
 
-const ws = wb.addWorksheet("Sheet 1");
+const ws = wb.addWorksheet("Deno Sheet");
 
 const style = wb.createStyle({
   font: {
