@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "dependencies": {
+    "excel4node": "^1.7.2"
+  }
+}
