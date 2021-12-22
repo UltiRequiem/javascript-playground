@@ -1,5 +1,7 @@
 {
-  "dependencies": {
-    "excel4node": "^1.7.2"
-  }
+  "name": "node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT"
 }
