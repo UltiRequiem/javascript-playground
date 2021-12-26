@@ -3,12 +3,12 @@ export function simplePalindrome(phrase: string) {
 }
 
 export function cyclePalindrome(word: string) {
-  const splitedWord = word.split("");
-  const reverseWord = [];
+  const splittedWord = word.split("");
+  const reversedWord = [];
 
-  for (let i = splitedWord.length - 1; i >= 0; i--) {
-    reverseWord.push(splitedWord[i]);
+  for (let i = splittedWord.length - 1; i >= 0; i--) {
+    reversedWord.push(splittedWord[i]);
   }
 
-  return splitedWord.join("") === reverseWord.join("");
+  return splittedWord.join("") === reversedWord.join("");
 }

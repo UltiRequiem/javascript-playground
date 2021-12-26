@@ -12,7 +12,7 @@ const rs = new Readable({
       return this.push(null);
     }
 
-    setTimeout(function () {
+    setTimeout(() => {
       rs.push(String.fromCharCode(++c));
     }, 100);
   },
