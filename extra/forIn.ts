@@ -2,7 +2,7 @@ interface LooseObject<T> {
   [key: string]: T;
 }
 
-const me: LooseObject<any> = { name: "Eliaz", age: 15 };
+const me: LooseObject<string | number> = { name: "Eliaz", age: 15 };
 
 for (const prop in me) {
   console.log(me[prop]);
