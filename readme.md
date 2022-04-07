@@ -8,7 +8,7 @@
 
 JavaScript is the world's most popular programming language and it is very cool.
 
-All here runs whith [Deno](https://deno.land), not
+All here runs whit [Deno](https://deno.land), not
 [Node.js](https://nodejs.org).
 
 ## FAQ
