@@ -6,7 +6,7 @@ export const inputToDB = (data: any) => {
 
   localStorage.setItem(
     localStorageDB,
-    JSON.stringify({ ...previousData, ...data })
+    JSON.stringify({ ...previousData, ...data }),
   );
 };
 
