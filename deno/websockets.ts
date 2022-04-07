@@ -1,4 +1,4 @@
-function handler(req: Request): Response {
+export function handler(req: Request): Response {
   let response, socket: WebSocket;
 
   const upgrade = req.headers.get("upgrade") || "";

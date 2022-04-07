@@ -1,6 +1,7 @@
 const localStorageDB = "denoTesting";
 
-const inputToDB = (data: any) => {
+// deno-lint-ignore no-explicit-any
+export const inputToDB = (data: any) => {
   const previousData = queryDB();
 
   localStorage.setItem(
@@ -9,7 +10,7 @@ const inputToDB = (data: any) => {
   );
 };
 
-const queryDB = () => {
+export const queryDB = () => {
   return JSON.parse(localStorage.getItem(localStorageDB) || "{}");
 };
 
