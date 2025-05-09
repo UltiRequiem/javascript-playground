@@ -10,6 +10,7 @@
 
 export default function isPrime(num: number) {
   if(num<2) return false;
+  if(num === 2) return true;
   if(!(num & 1)) return false;
   for(let i=3; i<Math.sqrt(num); ++i){
     if(num%i==0) return false;
